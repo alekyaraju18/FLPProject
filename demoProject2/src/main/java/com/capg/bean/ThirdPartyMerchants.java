@@ -29,6 +29,7 @@ public class ThirdPartyMerchants {
 	@JoinColumn(name="m_id")
 	private ThirdPartyProducts tproducts;
 
+
 	public ThirdPartyMerchants(int id, String name, String type, String organisation) {
 		super();
 		this.id = id;

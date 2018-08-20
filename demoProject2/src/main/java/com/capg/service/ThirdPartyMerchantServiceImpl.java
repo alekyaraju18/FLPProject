@@ -28,10 +28,11 @@ public class ThirdPartyMerchantServiceImpl implements ThirdPartyMerchantService{
 	}
 
 	@Override
-	public void addThirdPartyMerchant(int id, String name, String organization) {
+	public void addThirdPartyMerchant(int id, String name,String type, String organization) {
 		ThirdPartyMerchants m1 = new ThirdPartyMerchants();
 		m1.setId(id);
 		m1.setName(name);
+		m1.setType(type);
 		m1.setOrganisation(organization);
 		repo3.save(m1);
 		

@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.capg.bean.Merchants;
 import com.capg.repo.MerchantRepo;
@@ -25,11 +26,13 @@ public class MerchantServiceImpl implements MerchantService {
 	}
 
 	@Override
-	public void addMerchant(int id, String name, String organization) {
+	public void addMerchant(int id, String name,String type, String organization) {
 		Merchants m = new Merchants();
 		m.setId(id);
 		m.setName(name);
+		m.setType(type);
 		m.setOrganisation(organization);
+	
 		repo.save(m);
 
 	}

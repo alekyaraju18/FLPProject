@@ -42,10 +42,10 @@ public class MerchantController {
 
 	}
 
-	@RequestMapping(value = "/addMerchants{id}{name}{organisation}")
-	void addMerchant(@RequestParam String id, @RequestParam String name, @RequestParam String organisation) {
+	@RequestMapping(value = "/addMerchants{id}{name}{type}{organisation}")
+	void addMerchant(@RequestParam String id, @RequestParam String name,@RequestParam String type, @RequestParam String organisation) {
 
-		service.addMerchant(Integer.parseInt(id), name, organisation);
+		service.addMerchant(Integer.parseInt(id), name,type, organisation);
 		System.out.println("Added Successfully");
 	}
 
@@ -92,10 +92,10 @@ public class MerchantController {
 
 	}
 
-	@RequestMapping(value = "/addThirdPartyMerchants{id}{name}{organisation}")
-	void addThirdPartyMerchant(@RequestParam String id, @RequestParam String name, @RequestParam String organisation) {
+	@RequestMapping(value = "/addThirdPartyMerchants{id}{name}{type}{organisation}")
+	void addThirdPartyMerchant(@RequestParam String id, @RequestParam String name,@RequestParam String type, @RequestParam String organisation) {
 
-		service2.addThirdPartyMerchant(Integer.parseInt(id), name, organisation);
+		service2.addThirdPartyMerchant(Integer.parseInt(id), name,type,organisation);
 		System.out.println("Added Successfully");
 	}
 

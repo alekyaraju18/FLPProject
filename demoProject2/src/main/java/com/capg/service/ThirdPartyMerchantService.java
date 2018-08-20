@@ -11,7 +11,7 @@ public interface ThirdPartyMerchantService {
 
 	public Iterable<ThirdPartyMerchants> findAll();
 
-	public void addThirdPartyMerchant(int id, String name, String organization);
+	public void addThirdPartyMerchant(int id, String name, String type,String organization);
 
 	public void deleteThirdPartyMerchantById(int id);
 

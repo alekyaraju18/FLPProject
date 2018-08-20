@@ -29,6 +29,8 @@ import javax.persistence.OneToOne;
 		@JoinColumn(name="m_id")
 		private Products products;
 
+	
+
 		public Merchants(int id, String name, String type, String organisation) {
 			super();
 			this.id = id;

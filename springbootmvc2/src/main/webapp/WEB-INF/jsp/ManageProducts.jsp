@@ -6,7 +6,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
 <body>
-<a href="Products">Direct Merchant Products</a><br>
+<div class="header">
+  <h1>Manage Products</h1>
+</div>
+<center>
+<a href="Products"><h3><font color="black">Direct Merchant Products</font></h3></a>
+</center>
 </body>
 </html>

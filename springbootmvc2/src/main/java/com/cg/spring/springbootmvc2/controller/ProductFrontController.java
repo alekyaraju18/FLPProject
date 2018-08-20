@@ -30,10 +30,10 @@ public class ProductFrontController {
 	}
 	@RequestMapping("/addmerchantsfront")
 	public Merchants addMerchant(@RequestParam String id, @RequestParam String name,
-			@RequestParam String organisation) {
+			 @RequestParam String type,@RequestParam String organisation) {
 		RestTemplate rt2 = new RestTemplate();
 		Merchants p = rt2.getForObject(
-				"http://localhost:9095/addMerchants?id=" + id + "&name=" + name + "&organisation=" + organisation,
+				"http://localhost:9095/addMerchants?id=" + id + "&name=" + name +"&type=" + type+ "&organisation=" + organisation,
 				Merchants.class);
 		return p;
 	}
@@ -88,10 +88,10 @@ public class ProductFrontController {
 	}
 	@RequestMapping("/addThirdPartyMerchants")
 	public ThirdPartyMerchants addThirdPartyMerchant(@RequestParam String id, @RequestParam String name,
-			@RequestParam String organisation) {
+			@RequestParam String type,@RequestParam String organisation) {
 		RestTemplate rt10 = new RestTemplate();
 		ThirdPartyMerchants m = rt10.getForObject(
-				"http://localhost:9095/addThirdPartyMerchants?id=" + id + "&name=" + name + "&organisation=" + organisation,
+				"http://localhost:9095/addThirdPartyMerchants?id=" + id + "&name=" + name +"&type=" + type + "&organisation=" + organisation,
 				ThirdPartyMerchants.class);
 		return m;
 	}

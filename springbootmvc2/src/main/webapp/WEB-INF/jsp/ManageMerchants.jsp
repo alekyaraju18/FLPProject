@@ -6,9 +6,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<style>
+body {
+  margin: 0;
+}
 
-<a href="DirectMerchants">Direct Merchant</a><br>
-<a href="ThirdPartyMerchants2">Third Party Merchants2</a>
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Manage Merchants</h1>
+</div>
+<center>
+<a href="DirectMerchants"><h3><font color="black">Direct Merchant</font></h3></a><br>
+<a href="ThirdPartyMerchants2"><h3><font color="black">Third Party Merchant</font></h3></a>
+</center>
 </body>
 </html>

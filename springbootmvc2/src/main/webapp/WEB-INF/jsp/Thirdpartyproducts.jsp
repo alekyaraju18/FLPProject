@@ -6,10 +6,28 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
 <body>
-<a href="addthirdpartyproducts">AddProduct</a><br>
-<a href="deletethirdpartyproduct">DeleteProduct</a><br>
-<a href="displaythirdpartyproduct">DisplayProduct</a><br>
-<a href="/ListofAllThirdPartyProducts">DisplayAllProducts</a><br>
+<div class="header">
+  <h1>Manage Products</h1>
+</div>
+<center>
+<a href="addthirdpartyproducts"><h3><font color="black">Add a Product</font></h3></a>
+<a href="deletethirdpartyproduct"><h3><font color="black">Delete a Product</font></h3></a>
+<a href="displaythirdpartyproduct"><h3><font color="black">Show a Product</font></h3></a>
+<a href="/ListofAllThirdPartyProducts"><h3><font color="black">Display all Products</font></h3></a>
+</center>
 </body>
 </html>

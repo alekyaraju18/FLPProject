@@ -6,11 +6,30 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
 <body>
-<a href="thirdpartyindex">add</a><br>
-<a href="Deletethirdpartymerchant">Delete</a>
-<a href="Displaythirdpartymerchants">Show a merchant</a>
-<a href="/ListofAllThirdPartyMerchants">DisplayAllMerchant</a><br>
-<a href="managethirdpartyproducts">ManagingThirdparty Products</a><br>
+<div class="header">
+  <h1>Third Party Merchants</h1>
+</div>
+<body>
+<center>
+<a href="thirdpartyindex"><h3><font color="black">Add a merchant</font></h3></a><br>
+<a href="Deletethirdpartymerchant"><h3><font color="black">Delete a merchant</font></h3></a><br>
+<a href="Displaythirdpartymerchants"><h3><font color="black">Show a merchant</font></h3></a><br>
+<a href="/ListofAllThirdPartyMerchants"><h3><font color="black">Display  all merchants</font></h3></a><br>
+<a href="managethirdpartyproducts"><h3><font color="black">Manage Products</font></h3></a><br>
+</center>
 </body>
 </html>

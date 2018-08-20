@@ -6,8 +6,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<style>
+body {
+  margin: 0;
+}
 
-<a href="Thirdpartyproducts">Third Party Merchants Products</a>
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Manage Products</h1>
+</div>
+<center>
+<a href="Thirdpartyproducts"><h3><font color="black">Third Party Merchant Products</font></h3></a>
+</center>
 </body>
 </html>

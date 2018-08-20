@@ -11,7 +11,7 @@ public interface MerchantService
 
 	public Iterable<Merchants> findAll();
 
-	public void addMerchant(int id, String name, String organization);
+	public void addMerchant(int id, String name,String type, String organization);
 
 	public void deleteMerchantById(int id);
 

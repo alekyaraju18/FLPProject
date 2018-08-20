@@ -4,15 +4,18 @@ public class Merchants {
 
 	private int id;
 	private String name;
-	private String Organisation;
 	private String type;
+	private String Organisation;
+	
 
-	public Merchants(int id, String name, String organisation, String type) {
+	
+
+	public Merchants(int id, String name, String type, String organisation) {
 		super();
 		this.id = id;
 		this.name = name;
-		Organisation = organisation;
 		this.type = type;
+		Organisation = organisation;
 	}
 
 	public int getId() {
